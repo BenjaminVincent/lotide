@@ -11,6 +11,3 @@ assertEquals("Lighthouse Labs", "Bootcamp");
 assertEquals(1, 1);
 assertEquals(5, 10);
 assertEquals("hello", "hello");
-
-let name = "Ben";
-console.log(`hello, ${name}!`);
