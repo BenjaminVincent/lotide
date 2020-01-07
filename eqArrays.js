@@ -4,12 +4,6 @@ const assertEqual = function(actual, expected) {
   } else console.log("\x1b[31m%s\x1b[0m", `🛑 Assertion Failed: ${actual} !== ${expected}`);
 };
 
-
-// Take in 2 arrays
-// check if each elem is equal! *** ORDER MATTERS ***
-// LOOP: if [i] !== [i] return false
-// out side of loop return true;
-// Dont worry about nested arrays
 const eqArrays = function(a1, a2) {
   if (a1.length !== a2.length) return false;
   

@@ -6,7 +6,6 @@ const assertArraysEqual = function(a1, a2) {
 
   for (let i = 0; i < a1.length; i++) {
     if (a1[i] !== a2[i]) {
-      //isEqual = false;
       console.log("\x1b[31m%s\x1b[0m", `🛑 Assertion Failed: ${a1} !== ${a2}`);
       return;
     }
