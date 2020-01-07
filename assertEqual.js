@@ -1,13 +1,11 @@
-
-const assertEquals = function(actual, expected) {
+const assertEqual = function(actual, expected) {
   if (actual === expected) {
-    console.log(`🛑 Assertion Passed: ${actual} === ${expected}`);
-  } else console.log(`✅ Assertion Failed: ${actual} !== ${expected}`);
+    console.log("\x1b[32m%s\x1b[0m", `✅ Assertion Passed: ${actual} === ${expected}`);
+  } else console.log("\x1b[31m%s\x1b[0m", `🛑 Assertion Failed: ${actual} !== ${expected}`);
 };
-// remember to place semicolons at the end of const functions
 
 
-assertEquals("Lighthouse Labs", "Bootcamp");
-assertEquals(1, 1);
-assertEquals(5, 10);
-assertEquals("hello", "hello");
+assertEqual("Lighthouse Labs", "Bootcamp");
+assertEqual(1, 1);
+assertEqual(5, 10);
+assertEqual("hello", "hello");
