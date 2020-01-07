@@ -10,15 +10,14 @@ const assertEqual = function(actual, expected) {
 // LOOP: if [i] !== [i] return false
 // out side of loop return true;
 // Dont worry about nested arrays
-const eqArrays = function (a1, a2) {
+const eqArrays = function(a1, a2) {
   if (a1.length !== a2.length) return false;
   
-
   for (let i = 0; i < a1.length; i++) {
     if (a1[i] !== a2[i]) return false;
   } return true;
 
-}
+};
 
 
 
