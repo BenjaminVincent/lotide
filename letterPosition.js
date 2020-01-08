@@ -24,6 +24,8 @@ const letterPositions = function(sentence) {
       result[letter] = new Array();
     }
     result[letter].push(i);
+
+    if (letter === " ") delete result[letter];
   }
   return result;
 };
