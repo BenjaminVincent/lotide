@@ -33,10 +33,7 @@ const assertArraysEqual = function(a1, a2) {
 
 const flatten = arr => Array.prototype.concat.apply([], arr);
 
-
-//console.log(flatten([1, 2, [3, 4], 5, [6]])); // => [1, 2, 3, 4, 5, 6])
-
-
 assertArraysEqual(flatten([1, 2, [3, 4], 5, [6]]), [1, 2, 3, 4, 5, 6]);
+//assertArraysEqual(flatten([1, 2, [3, 4, [5]], 5, [6]]), [1, 2, 3, 4, 5, 5, 6]);
 
-//console.log(eqArrays([1], [1]));
+
