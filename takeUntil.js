@@ -32,15 +32,14 @@ const takeUntil = function(array, callback) {
   let result = [];
 
   for (const item of array) {
-    console.log("ITEM: ", item);
     if (!callback(item)) {
       result.push(item);
     } else {
       return result;
     }
   }
-    return result;
-}
+  return result;
+};
 
 
 
