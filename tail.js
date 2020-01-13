@@ -1,9 +1,10 @@
 
 
 const tail = function(a) {
-  let b = a;
-  b.shift();
-  return b;
+
+  if (a.length <= 1) return [];
+  else return a.slice(1); 
+  
 };
 
 
