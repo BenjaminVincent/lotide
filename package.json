@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "@benjaminvincent/lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "lotide library",
   "main": "",
   "directories": {
     "test": "test"
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/BenjaminVincent/lotide.git"
   },
-  "author": "",
+  "author": "@benjaminvincent/lotide",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/BenjaminVincent/lotide/issues"
@@ -22,5 +22,6 @@
   "devDependencies": {
     "chai": "^4.2.0",
     "mocha": "^7.0.0"
-  }
+  },
+  "dependencies": {}
 }
