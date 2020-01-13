@@ -27,15 +27,8 @@ const map = function(array, callBack) {
   const results = [];
 
   for (let item of array) {
-    //console.log('item BEFORE:', item);
-    //console.log('item AFTER:', callBack(item));
-    //console.log('-----');
     results.push(callBack(item));
   }
-  
-  //console.log('array: ', array);
-  //console.log('callback: ', callBack);
-  
   return results;
 };
 
